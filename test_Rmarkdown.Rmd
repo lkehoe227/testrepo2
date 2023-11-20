@@ -1,0 +1,49 @@
+---
+title: "test Rmarkdown"
+author: "Liam Kehoe"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+# Hello World
+## Heading 2
+### Heading 3
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 (same as default text size)
+
+### *Italic* 
+### **Bold** 
+### ***Bold Italic***
+
+1. list 1 
+2. list 2 
+
+- bullet 1 
+- bullet 2 
+
+* bullet 1
+* bullet 2 
+
+You can write whatever you want in here and when you  click "knit" it will create or "knit" your html file 
+
+**you can also add links to your doc: [here is google](https://www.google.com)**
+
+```{r}
+# Hello World 
+
+# my code here 
+answer <- 2 + 4
+answer 
+my_data <- cars 
+my_data
+```
+
+here is my next chunk of code. Plotting with `plot()` function 
+
+```{r}
+plot(my_data$speed ~ my_data$dist)
+```
+
+
